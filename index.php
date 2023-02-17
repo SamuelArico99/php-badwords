@@ -25,7 +25,7 @@ $testoSenzaParolacce = str_replace($_GET['badWord'], '***', $testo);
     <h2>
         <?php echo $testo; ?>
     </h2>
-    <span>Il testo è lungo: <?php echo strlen($testo)  ?> parole</span><br><br><br>
+    <h1>Il testo è lungo: <?php echo strlen($testo)  ?> parole</h1><br><br><br>
 
 
     <form action="">
@@ -36,7 +36,7 @@ $testoSenzaParolacce = str_replace($_GET['badWord'], '***', $testo);
     <h2>
         <?php echo $testoSenzaParolacce; ?>
     </h2>
-    <span>Il testo è lungo: <?php echo strlen($testoSenzaParolacce)  ?> parole</span><br>
+    <h1>Il testo è lungo: <?php echo strlen($testoSenzaParolacce)  ?> parole</h1><br>
 </body>
 
 </html>
